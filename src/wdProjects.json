@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "title": "Project 3",
+    "image": "../public/assets/LW-searchresults.png",
+    "deployedLink": "https://github.com/umutamac",
+    "explanation": "This is a placeholder."
+  },
+  {
+    "id": 2,
+    "title": "Leftover Wizard",
+    "image": "../public/assets/LW-searchresults.png",
+    "deployedLink": "https://leftover-wizard.herokuapp.com/",
+    "explanation": "This app lets users type in food and ingredients and get recipes that they can do using those ingredients. It is aimed for people who wish to evade going to the grocery store while still being able to cook something at home. This was a group project, and part of the coding bootcamp assignments. It is deployed on Heroku. Github repo: https:\/\/github.com/GrimmeDev/LeftoverWizard"
+  },
+  {
+    "id": 3,
+    "title": "Work Day Scheduler",
+    "image": "../public/assets/day_planner.png",
+    "deployedLink": "https://umutamac.github.io/day-planner/",
+    "explanation": "This is a website where you can search for reviews and deals on PC video games, which are brought from Cheapshark API. Each deal search also gives users a random coctail name and picture through The Cocktail DB API. This was a group project, part of the coding bootcamp assignments. It is deployed on Github Pages. Github repo: https:\/\/github.com/umutamac/Game-Search-Engine"
+  },
+  {
+    "id": 4,
+    "title": "Weather Dashboard",
+    "image": "../public/assets/weather_dashboard.png",
+    "deployedLink": "https://umutamac.github.io/weather-dashboard/",
+    "explanation": "This is a website where you can search for reviews and deals on PC video games, which are brought from Cheapshark API. Each deal search also gives users a random coctail name and picture through The Cocktail DB API. This was a group project, part of the coding bootcamp assignments. It is deployed on Github Pages. Github repo: https:\/\/github.com/umutamac/Game-Search-Engine"
+  }
+]
+  

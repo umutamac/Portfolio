@@ -1,0 +1,78 @@
+body{
+    background-image: url("../assets/Blue-Pattern-Background-Photos.jpg");
+    background-position: center;
+    
+}
+.nav-wrapper {
+    background-color: #14b5d0 ;
+}
+#name {
+    font-size: xx-large;
+    font-family: 'Arvo', serif;
+}
+#headshot {
+    height: 200px;
+}
+.portfolioImage {
+    max-height: 400px;
+}
+
+#portfolio {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: white;
+    padding: 20px;
+}
+#contact,
+#about {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    background-color: white;
+    padding: 20px;
+}
+
+.page-footer {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-left {
+    position: relative;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 60%;
+}
+.icons-container-right {
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    float: right;
+    width: 40%;
+}
+.icon {
+    position: relative;
+    background-size: 50px;
+	width: 50px;
+    height: 50px;
+    margin-top: 15px;
+	margin-right: 15px;
+    display: inline-block;
+}
+.icon-linkedin{
+	background-image: url(../assets/linkedin-icon.png);
+}
+.icon-github{
+    background-image: url(../assets/GitHub-Mark-64px.png);
+}
+
+
+/* .flex-container {
+    display: flex;
+} */

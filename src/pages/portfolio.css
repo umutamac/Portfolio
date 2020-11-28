@@ -1,0 +1,12 @@
+.portfolioImage {
+    max-height: 400px;
+}
+#portfolio {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: white;
+    padding: 20px;
+}

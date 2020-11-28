@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Row } from "../components/Grid";
 import Card from "../components/Card"
 import myprojects from "../wdProjects.json";
+import "./portfolio.css";
 
 function Portfolio() {
     function renderRows() {

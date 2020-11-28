@@ -11,8 +11,8 @@ function Portfolio() {
                 myprojects.slice(i, i + chunk).map((props) => (
                     // pick first/next 3 objects from imported json array
                     // use map to create cards for each of the 3 items, pass the props down to Card component
-                    <Col size="s12 m6 l4">
-                        <Card {...props} />
+                    <Col key={i} size="s12 m6 l4">
+                        <Card key={i} {...props} />
                     </Col>
                 ))
             }

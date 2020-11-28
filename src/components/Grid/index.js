@@ -12,7 +12,7 @@ export function Row() {
 
 // This Col component lets us size materialize columns with less syntax
 // e.g. <Col size="m12"> instead of <div className="col m12">
-export function Col({ size}) {
+export function Col(size) {
   return (
     <div className={size.trim().map(size => "col " + size)} >
 

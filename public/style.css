@@ -1,17 +1,21 @@
 body{
     background-image: url("../assets/Blue-Pattern-Background-Photos.jpg");
     background-position: center;
-    
 }
 .nav-wrapper {
     background-color: #14b5d0 ;
 }
+
+
+
+
 #name {
     font-size: xx-large;
     font-family: 'Arvo', serif;
 }
 #headshot {
     height: 200px;
+    width: auto;
 }
 .portfolioImage {
     max-height: 400px;
@@ -26,7 +30,6 @@ body{
     background-color: white;
     padding: 20px;
 }
-#contact,
 #about {
     width: 80%;
     margin-left: auto;
@@ -36,6 +39,12 @@ body{
     background-color: white;
     padding: 20px;
 }
+
+
+
+
+
+
 
 .page-footer {
     width: 100%;

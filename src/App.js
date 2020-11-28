@@ -5,7 +5,7 @@ import Portfolio from "./pages/Portfolio";
 import NoMatch from "./pages/NoMatch";
 
 import Nav from "./components/Nav";
-import Footer from "./components/Portfolio";
+import Footer from "./components/Footer";
 
 function App() {
     return (

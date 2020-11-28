@@ -12,11 +12,11 @@ function Nav() {
           <li><Link to="/portfolio">Portfolio</Link></li>
           {/* <li className="active"><a href="index.html">About</a></li>
           <li><a href="more-html/portfolio.html">Portfolio</a></li> */}
-         
         </ul>
-        <a className="center-align col s8 hoverable" href="index.html" id="name">
+        
+        <Link to="/" className="center-align col s8 hoverable" href="index.html" id="name">
           <span className="flow-text">Umut A. ALPTEKIN</span>
-        </a>
+        </Link>
       </div>
     </nav>
   );

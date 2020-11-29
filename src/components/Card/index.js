@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function Card(projects) {
     return (
         /*Reveal card setup from materialize*/

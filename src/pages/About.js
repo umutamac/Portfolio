@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
-import headshot from "../assets/Alptekin_U_01.jpg";
-import resume from "../assets/CV_Umut_Alptekin_Oct2020(EN).pdf";
+import headshot from "../assets/aboutPics/Alptekin_U_01.jpg";
+import resume from "../assets/pdf/CV_Umut_Alptekin_Oct2020(EN).pdf";
 
 function About() {
 
@@ -9,8 +9,7 @@ function About() {
     <article id="about">
       <div className="article-container">
         <h1>About Me</h1>
-        <hr />
-        <br />
+        <hr /><br />
         <div className="about-text">
           <img id="headshot" alt="Umut-Alptekin" src={headshot} />
           <p>Hello everyone! My name is Umut and I am currently on my way to become a Full-Stack Web Developer

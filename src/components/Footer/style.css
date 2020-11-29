@@ -27,8 +27,8 @@
     display: inline-block;
 }
 .icon-linkedin{
-	background-image: url(./assets/linkedin-icon.png);
+	background-image: url("../../assets/linkedin-icon.png");
 }
 .icon-github{
-    background-image: url(./assets/GitHub-Mark-64px.png);
+    background-image: url("../../assets/GitHub-Mark-64px.png");
 }

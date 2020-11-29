@@ -5,21 +5,6 @@ import myprojects from "../wdProjects.json";
 import "./portfolio.css";
 
 function Portfolio() {
-    // function renderRows() {
-    //     const chunk = 3; // 3 cards to be created per row
-    //     for (let i = 0; i < myprojects.length; i += chunk) { // create one row per chunk of items
-    //         <Row> { 
-    //             myprojects.slice(i, i + chunk).map((props) => (
-    //                 // pick first/next 3 objects from imported json array
-    //                 // use map to create cards for each of the 3 items, pass the props down to Card component
-    //                 <Col key={i} size="s12 m6 l4">
-    //                     <Card key={i} {...props} />
-    //                 </Col>
-    //             ))
-    //         }
-    //         </Row>
-    //     }
-    // }
 
     return (
         <div className="container" id="portfolio">
@@ -33,18 +18,17 @@ function Portfolio() {
                     </ul>
                 </Col>
             </Row>
-            <div id="tab">
+            <div id="tab1">
                 <Row>
-                {myprojects.map((project,i) =>{
-                console.log(project);
-                    return(
-                        <Col key={i} size="s12 m6 l4">
-                        <Card key={i} {...project} title={project.title} />
-                    </Col>
-                    )
-                })}
+                    {myprojects.map((project, i) => {
+                        console.log(project);
+                        return (
+                            <Col key={i} size="s12 m6 l4">
+                                <Card key={i} {...project} />
+                            </Col>
+                        )
+                    })}
                 </Row>
-                {/* {renderRows()} */}
             </div>
         </div>
     );

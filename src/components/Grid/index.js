@@ -1,10 +1,6 @@
 import React from "react";
 
-// Exporting the Container, Row, and Col components from this file
-
-export function Container() {
-  return <div className="row"></div>;
-}
+// Exporting the Row and Col components from this file
 
 export function Row(props) {
   return <div className="row">{props.children}</div>;

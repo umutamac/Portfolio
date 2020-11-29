@@ -5,7 +5,7 @@ function Card(projects) {
         /*Reveal card setup from materialize*/
         <div className="card">
             <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator portfolioImage" alt="weather_dashboard" src="../assets/weather_dashboard.png" />
+                <img className="activator portfolioImage" alt={projects.title} src={projects.image} />
             </div>
             <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">

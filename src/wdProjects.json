@@ -19,16 +19,28 @@
     "explanation": "This is a website where you can search for reviews and deals on PC video games, which are brought from Cheapshark API. Each deal search also gives users a random coctail name and picture through The Cocktail DB API. This was a group project, part of the coding bootcamp assignments. It is deployed on Github Pages. Github repo: https:\/\/github.com/umutamac/Game-Search-Engine"
   },{
     "id": 4,
+    "title": "Employee Directory",
+    "image": "../../assets/portfolioPics/emp_directory_screenshot.png",
+    "deployedLink": "https://umutamac.github.io/employee-directory/",
+    "explanation": "This is a React JS app where the employees can be sorted by their ID number, name, age, or salary. The employee information comes from a JSON file and cannot be manipulated by user. The sort buttons changes the state, which changes the order of the array inside the JSON file, and the information on the screen is updated automatically"
+  },{
+    "id": 5,
+    "title": "Budget Tracker",
+    "image": "../../assets/portfolioPics/budget_tracker_screenshot.png",
+    "deployedLink": "https://enigmatic-tundra-93097.herokuapp.com/",
+    "explanation": "This app lets users keep track of their budget by saving transactions with a name and amount. The transaction list and the remaining budget is saved in the database powered by MongoDB. If the internet connection is lost, the app saves the transactions on client side using IndexedDB. Once a connection is re-established, the transactions kept on client side are synced with the main database for seamless operation"
+  },{
+    "id": 6,
     "title": "Work Day Scheduler",
     "image": "../../assets/portfolioPics/day_planner.png",
     "deployedLink": "https://umutamac.github.io/day-planner/",
-    "explanation": "This is a website where you can search for reviews and deals on PC video games, which are brought from Cheapshark API. Each deal search also gives users a random coctail name and picture through The Cocktail DB API. This was a group project, part of the coding bootcamp assignments. It is deployed on Github Pages. Github repo: https:\/\/github.com/umutamac/Game-Search-Engine"
+    "explanation": "This is a placeholder."
   },{
-    "id": 5,
+    "id": 7,
     "title": "Weather Dashboard",
     "image": "../../assets/portfolioPics/weather_dashboard.png",
     "deployedLink": "https://umutamac.github.io/weather-dashboard/",
-    "explanation": "This is a website where you can search for reviews and deals on PC video games, which are brought from Cheapshark API. Each deal search also gives users a random coctail name and picture through The Cocktail DB API. This was a group project, part of the coding bootcamp assignments. It is deployed on Github Pages. Github repo: https:\/\/github.com/umutamac/Game-Search-Engine"
+    "explanation": "This is a placeholder."
   }
 ]
   

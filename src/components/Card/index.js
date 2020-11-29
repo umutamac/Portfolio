@@ -1,9 +1,10 @@
 import React from "react";
-
+import "./index.css";
 
 function Card(projects) {
     return (
-        /*Reveal card setup from materialize*/
+        /*Reveal card setup from materialize
+        When image is clicked, content of class=card-reveal is shown*/
         <div className="card">
             <div className="card-image waves-effect waves-block waves-light">
                 <img className="activator portfolioImage" alt={projects.title} src={projects.image} />
@@ -13,6 +14,7 @@ function Card(projects) {
                     <a href={projects.deployedLink} target="_blank" rel="noopener noreferrer">{projects.title}</a>
                 </span>
             </div>
+            
             <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">{projects.title}<i
                     className="material-icons right">close</i></span>

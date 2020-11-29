@@ -21,7 +21,7 @@ function Portfolio() {
             <div id="tab1">
                 <Row>
                     {myprojects.map((project, i) => {
-                        console.log(project);
+                        //console.log(project);
                         return (
                             <Col key={i} size="s12 m6 l4">
                                 <Card key={i} {...project} />

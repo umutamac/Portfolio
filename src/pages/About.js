@@ -1,5 +1,7 @@
 import React from "react";
 import "./about.css";
+import headshot from "../assets/Alptekin_U_01.jpg";
+import resume from "../assets/CV_Umut_Alptekin_Oct2020(EN).pdf";
 
 function About() {
 
@@ -10,7 +12,7 @@ function About() {
         <hr />
         <br />
         <div className="about-text">
-          <img id="headshot" alt="Umut-Alptekin" src="../assets/Alptekin_U_01.jpg" />
+          <img id="headshot" alt="Umut-Alptekin" src={headshot} />
           <p>Hello everyone! My name is Umut and I am currently on my way to become a Full-Stack Web Developer
           thanks
           to the coding bootcamp at UT Austin. I have recently earned a Bachelor's degree in mechanical
@@ -32,7 +34,7 @@ function About() {
           after I am done with my coding bootcamp, but having multiple options is something very valuable for
           me.
               I'll see where future takes me...</p>
-          <span>My resume can be found <a href="../assets/CV_Umut_Alptekin_Oct2020(EN).pdf" target="_blank" rel="noopener noreferrer">here</a>.</span>
+          <span>My resume can be found <a href={resume} target="_blank" rel="noopener noreferrer">here</a>.</span>
         </div>
       </div>
     </article>

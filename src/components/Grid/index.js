@@ -6,16 +6,16 @@ export function Container() {
   return <div className="row"></div>;
 }
 
-export function Row() {
-  return <div className="row"></div>;
+export function Row(props) {
+  return <div className="row">{props.children}</div>;
 }
 
 // This Col component lets us size materialize columns with less syntax
 // e.g. <Col size="m12"> instead of <div className="col m12">
-export function Col(size) {
+export function Col({children, size}) {
   return (
-    <div className={size.trim().map(size => "col " + size)} >
-
+    <div className={`col ${size}`} >
+      {children}
     </div>
   );
 }

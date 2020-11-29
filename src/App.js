@@ -15,7 +15,7 @@ function App() {
 
                 <Switch>
                     <Route exact path="/" component={About} />
-                    <Route exact path="/react=portfolio" component={About} />
+                    <Route exact path="/react-portfolio" component={About} />
                     <Route exact path="/portfolio" component={Portfolio} />
                     <Route component={NoMatch} />
                 </Switch>

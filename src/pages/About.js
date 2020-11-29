@@ -1,6 +1,10 @@
 import React from "react";
 import "./about.css";
+
 import headshot from "../assets/aboutPics/Alptekin_U_01.jpg";
+import psuLogo from "../assets/aboutPics/psu_coe.png";
+import bootcamp from "../assets/aboutPics/UT_bootcamp.png";
+import sj from "../assets/aboutPics/sj.jpg";
 import resume from "../assets/pdf/CV_Umut_Alptekin_Oct2020(EN).pdf";
 
 function About() {
@@ -35,6 +39,9 @@ function About() {
               I'll see where future takes me...</p>
           <span>My resume can be found <a href={resume} target="_blank" rel="noopener noreferrer">here</a>.</span>
         </div>
+        <img id="headshot" alt="Umut-Alptekin" src={psuLogo} />
+          <img id="headshot" alt="Umut-Alptekin" src={bootcamp} />
+          <img id="headshot" alt="Umut-Alptekin" src={sj} />
       </div>
     </article>
   );

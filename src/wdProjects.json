@@ -2,25 +2,25 @@
   {
     "id": 1,
     "title": "Project 3",
-    "image": "../../assets/portfolioPics/LW-searchResults.png",
+    "image": "/assets/portfolioPics/LW-searchResults.png",
     "deployedLink": "https://github.com/umutamac",
     "explanation": "This is a placeholder for project 3."
   },{
     "id": 2,
     "title": "Leftover Wizard",
-    "image": "../../assets/portfolioPics/LW-searchResults.png",
+    "image": "/assets/portfolioPics/LW-searchResults.png",
     "deployedLink": "https://leftover-wizard.herokuapp.com/",
     "explanation": "This app lets users type in food and ingredients and get recipes that they can do using those ingredients. It is aimed for people who wish to evade going to the grocery store while still being able to cook something at home. This was a group project, and part of the coding bootcamp assignments. It is deployed on Heroku. Github repo: https:\/\/github.com/GrimmeDev/LeftoverWizard"
   },{
     "id": 3,
     "title": "Reviews & Cocktails",
-    "image": "../../assets/portfolioPics/project1.png",
+    "image": "/assets/portfolioPics/project1.png",
     "deployedLink": "https://umutamac.github.io/Game-Search-Engine/",
     "explanation": "This is a website where you can search for reviews and deals on PC video games, which are brought from Cheapshark API. Each deal search also gives users a random coctail name and picture through The Cocktail DB API. This was a group project, part of the coding bootcamp assignments. It is deployed on Github Pages. Github repo: https:\/\/github.com/umutamac/Game-Search-Engine"
   },{
     "id": 4,
     "title": "Employee Directory",
-    "image": "../../assets/portfolioPics/emp_directory_screenshot.png",
+    "image": "/assets/portfolioPics/emp_directory_screenshot.png",
     "deployedLink": "https://umutamac.github.io/employee-directory/",
     "explanation": "This is a React JS app where the employees can be sorted by their ID number, name, age, or salary. The employee information comes from a JSON file and cannot be manipulated by user. The sort buttons changes the state, which changes the order of the array inside the JSON file, and the information on the screen is updated automatically"
   },{

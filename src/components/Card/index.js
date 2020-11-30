@@ -7,7 +7,7 @@ function Card(projects) {
         When image is clicked, content of class=card-reveal is shown*/
         <div className="card">
             <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator portfolioImage" alt={projects.title} src={projects.image} />
+                <img className="activator portfolioImage" alt={projects.title} src={process.env.PUBLIC_URL + projects.image} />
             </div>
             <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">

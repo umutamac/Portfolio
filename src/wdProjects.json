@@ -26,19 +26,19 @@
   },{
     "id": 5,
     "title": "Budget Tracker",
-    "image": "../../assets/portfolioPics/budget_tracker_screenshot.png",
+    "image": "/assets/portfolioPics/budget_tracker_screenshot.png",
     "deployedLink": "https://enigmatic-tundra-93097.herokuapp.com/",
     "explanation": "This app lets users keep track of their budget by saving transactions with a name and amount. The transaction list and the remaining budget is saved in the database powered by MongoDB. If the internet connection is lost, the app saves the transactions on client side using IndexedDB. Once a connection is re-established, the transactions kept on client side are synced with the main database for seamless operation"
   },{
     "id": 6,
     "title": "Work Day Scheduler",
-    "image": "../../assets/portfolioPics/day_planner.png",
+    "image": "/assets/portfolioPics/day_planner.png",
     "deployedLink": "https://umutamac.github.io/day-planner/",
     "explanation": "This is a placeholder."
   },{
     "id": 7,
     "title": "Weather Dashboard",
-    "image": "../../assets/portfolioPics/weather_dashboard.png",
+    "image": "/assets/portfolioPics/weather_dashboard.png",
     "deployedLink": "https://umutamac.github.io/weather-dashboard/",
     "explanation": "This is a placeholder."
   }

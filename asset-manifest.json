@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c67737ba.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.53ccc48c.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.53ccc48c.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.c4f7786c.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.cf820e34.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.cf820e34.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.cdcd8a89.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.cdcd8a89.js.map",
     "static/js/2.a91e7fa2.chunk.js": "/react-portfolio/static/js/2.a91e7fa2.chunk.js",
     "static/js/2.a91e7fa2.chunk.js.map": "/react-portfolio/static/js/2.a91e7fa2.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.c67737ba.chunk.css.map": "/react-portfolio/static/css/main.c67737ba.chunk.css.map",
+    "static/css/main.c4f7786c.chunk.css.map": "/react-portfolio/static/css/main.c4f7786c.chunk.css.map",
     "static/js/2.a91e7fa2.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.a91e7fa2.chunk.js.LICENSE.txt",
     "static/media/Alptekin_U_01.7b39a8a7.jpg": "/react-portfolio/static/media/Alptekin_U_01.7b39a8a7.jpg",
     "static/media/index.css": "/react-portfolio/static/media/Blue-Pattern-Background-Photos.adb3876f.jpg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.cdcd8a89.js",
     "static/js/2.a91e7fa2.chunk.js",
-    "static/css/main.c67737ba.chunk.css",
-    "static/js/main.53ccc48c.chunk.js"
+    "static/css/main.c4f7786c.chunk.css",
+    "static/js/main.cf820e34.chunk.js"
   ]
 }

@@ -37,6 +37,12 @@
     "explanation": "This is a placeholder."
   },{
     "id": 7,
+    "title": "README Generator",
+    "image": "/assets/portfolioPics/readme_generator_ss.png",
+    "deployedLink": "https://github.com/umutamac/readme-generator",
+    "explanation": "This CLI program is for generating a README files for other code projects. It asks users a series of questions using inquirer.js and puts the answers into a markdown file template to generate the readme file."
+  },{
+    "id": 8,
     "title": "Weather Dashboard",
     "image": "/assets/portfolioPics/weather_dashboard.png",
     "deployedLink": "https://umutamac.github.io/weather-dashboard/",

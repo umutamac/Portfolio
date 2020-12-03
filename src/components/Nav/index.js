@@ -11,8 +11,6 @@ function Nav() {
         <ul id="dropdown1" className="dropdown-content">
           <li><Link to="/">About Me</Link></li>
           <li><Link to="/portfolio">Portfolio</Link></li>
-          {/* <li className="active"><a href="index.html">About</a></li>
-          <li><a href="more-html/portfolio.html">Portfolio</a></li> */}
         </ul>
         
         <Link to="/" className="center-align col s8 hoverable" id="name">

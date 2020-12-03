@@ -16,7 +16,7 @@ function Footer() {
                     <a href="https://github.com/umutamac" target="_blank" rel="noopener noreferrer">
                         <div className="icon icon-github hoverable"></div>
                     </a>
-                    <a href="mailto:amacalptekin@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <a href="mailto:amacalptekin@gmail.com" target="_blank" >
                         <div className="icon icon-email hoverable"></div>
                     </a>
                 </div>

@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "title": "Project 3",
-    "image": "/assets/portfolioPics/LW-searchResults.png",
-    "deployedLink": "https://github.com/umutamac",
-    "explanation": "This is a placeholder for project 3."
+    "title": "Paw Prints",
+    "image": "/assets/portfolioPics/pawPrintsSS.png",
+    "deployedLink": "https://mypawprints.herokuapp.com/",
+    "explanation": "This app is designed to be a platform where users can post an image and information of their lost pet for others to see and reach out if they have seen the pet. Everyone can see the posts on the landing page, but signing up is necessary to be able to create a post, and only owner of a given post can delete the post once the pet is found. The project is built using MongoDB, Express, React and Node, as well several other tools such as Cloudinary API, Passport.JS, Multer and more."
   },{
     "id": 2,
     "title": "Leftover Wizard",

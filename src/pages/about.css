@@ -1,10 +1,16 @@
 #headshot > img{
     height: auto;
-    max-width: 400px;
+    width: 400px;
+    max-width: 100%;
     float: left;
     margin: 0px 15px 15px 0px;
+
+
+    border-style:double;
+    border-width: medium;
+    border-radius: 10px;
 }
-#headshot > span{
+#headshot > span{ /*doenst affect anything for now*/
     height: auto;
     max-width: 400px;
     float: left;
@@ -15,7 +21,7 @@
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 100px;
     background-color: white;
     padding: 20px;

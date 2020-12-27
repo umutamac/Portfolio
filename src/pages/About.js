@@ -19,7 +19,6 @@ function About() {
 
           <div id="headshot">
             <img alt="Umut-Alptekin" src={headshot} />
-           
           </div>
 
           <p>Hello everyone! My name is Umut and I am currently on my way to become a Full-Stack Web Developer

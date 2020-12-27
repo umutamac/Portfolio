@@ -1,13 +1,41 @@
-#headshot {
-    height: 200px;
-    width: auto;
+#headshot > img{
+    height: auto;
+    max-width: 400px;
+    float: left;
+    margin: 0px 15px 15px 0px;
 }
+#headshot > span{
+    height: auto;
+    max-width: 400px;
+    float: left;
+    margin: 0px 15px 15px 0px;
+}
+
 #about {
-    width: 80%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
     margin-bottom: 100px;
     background-color: white;
     padding: 20px;
+
+    font-size: large;
+    font-family: 'Crimson', sans-serif;
+}
+
+#psuLogo > img,
+#bootCampLogo > img,
+#sjLogo > img{
+    max-height: 150px;    
+}
+
+#psuLogo,
+#bootCampLogo,
+#sjLogo{
+    display: inline-block; 
+}
+
+#logosDiv{
+    text-align: center;
 }

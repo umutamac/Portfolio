@@ -5,7 +5,8 @@ import headshot from "../assets/aboutPics/Alptekin_U_01.jpg";
 import psuLogo from "../assets/aboutPics/psu_coe.png";
 import bootcamp from "../assets/aboutPics/UT_bootcamp.png";
 import sj from "../assets/aboutPics/sj.jpg";
-import resume from "../assets/pdf/CV_Umut_Alptekin_Oct2020(EN).pdf";
+import resume from "../assets/pdf/Resume_Umut_Alptekin_Dec2020.pdf";
+// import { Row } from "../components/Grid";
 
 function About() {
 
@@ -15,7 +16,12 @@ function About() {
         <h1>About Me</h1>
         <hr /><br />
         <div className="about-text">
-          <img id="headshot" alt="Umut-Alptekin" src={headshot} />
+
+          <div id="headshot">
+            <img alt="Umut-Alptekin" src={headshot} />
+           
+          </div>
+
           <p>Hello everyone! My name is Umut and I am currently on my way to become a Full-Stack Web Developer
           thanks
           to the coding bootcamp at UT Austin. I have recently earned a Bachelor's degree in mechanical
@@ -35,13 +41,27 @@ function About() {
 
           <p>Currently, I am not certain about whether I will look for a job in web development or in engineering
           after I am done with my coding bootcamp, but having multiple options is something very valuable for
-          me.
-              I'll see where future takes me...</p>
+          me. I will see where future takes me...</p>
+          
           <span>My resume can be found <a href={resume} target="_blank" rel="noopener noreferrer">here</a>.</span>
+
+          <br />
+          <div id="logosDiv">
+
+            <div id="bootCampLogo">
+              <img alt="Umut-Alptekin" src={bootcamp} />
+            </div>
+            <div id="psuLogo">
+              <img alt="Umut-Alptekin" src={psuLogo} />
+            </div>
+            <div id="sjLogo">
+              <img alt="Umut-Alptekin" src={sj} />
+            </div>
+
+          </div>
+
         </div>
-        <img id="headshot" alt="Umut-Alptekin" src={psuLogo} />
-          <img id="headshot" alt="Umut-Alptekin" src={bootcamp} />
-          <img id="headshot" alt="Umut-Alptekin" src={sj} />
+
       </div>
     </article>
   );

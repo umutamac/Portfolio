@@ -46,7 +46,7 @@
     "title": "Weather Dashboard",
     "image": "/assets/portfolioPics/weather_dashboard.png",
     "deployedLink": "https://umutamac.github.io/weather-dashboard/",
-    "explanation": "This is a placeholder."
+    "explanation": "This project is designed to retrieve current weather information and future forecast from openweathermap when a user searches in a city. When user searches a city in search bar, the searched name gets saved into local storage and is displayed on the search list on the left side of the window. The system makes an API call to openweathermap for the given city in order to get and display current date, an icon for the weather, temperature, humidity, wind speed and UV index, as well as a 5-day forecast with most of the mentioned information. If user clicks on one of the past searches, the system searches that city again automatically."
   }
 ]
   

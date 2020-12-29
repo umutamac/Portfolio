@@ -14,7 +14,7 @@ function Nav() {
           <i className="material-icons hoverable">menu</i></a>
         <ul id="dropdown1" className="dropdown-content">
           <li><Link to="/">About Me</Link></li>
-          <li><Link to="/portfolio">Portfolio</Link></li>
+          <li><Link to="/projects">Projects</Link></li>
         </ul>
       </div>
     </nav>

@@ -2,9 +2,9 @@ import React from "react";
 import { Col, Row } from "../components/Grid";
 import Card from "../components/Card"
 import myprojects from "../wdProjects.json";
-import "./portfolio.css";
+import "./projects.css";
 
-function Portfolio() {
+function Projects() {
 
     return (
         <div className="container" id="portfolio">
@@ -33,4 +33,4 @@ function Portfolio() {
         </div>
     );
 }
-export default Portfolio;
+export default Projects;

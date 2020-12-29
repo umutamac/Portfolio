@@ -1,12 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    
-  ]
-  ,
+  "short_name": "Umut Altpekin",
+  "name": "Portfolio of Umut Alptekin",
+  "icons": [],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#14b5d0"
 }

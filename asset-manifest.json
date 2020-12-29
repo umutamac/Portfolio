@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.8533fabc.chunk.css",
-    "main.js": "/static/js/main.17908b99.chunk.js",
-    "main.js.map": "/static/js/main.17908b99.chunk.js.map",
+    "main.css": "/static/css/main.fabbe17b.chunk.css",
+    "main.js": "/static/js/main.5e1e9865.chunk.js",
+    "main.js.map": "/static/js/main.5e1e9865.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.112f52ad.js",
     "runtime-main.js.map": "/static/js/runtime-main.112f52ad.js.map",
     "static/js/2.a91e7fa2.chunk.js": "/static/js/2.a91e7fa2.chunk.js",
     "static/js/2.a91e7fa2.chunk.js.map": "/static/js/2.a91e7fa2.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8533fabc.chunk.css.map": "/static/css/main.8533fabc.chunk.css.map",
+    "static/css/main.fabbe17b.chunk.css.map": "/static/css/main.fabbe17b.chunk.css.map",
     "static/js/2.a91e7fa2.chunk.js.LICENSE.txt": "/static/js/2.a91e7fa2.chunk.js.LICENSE.txt",
     "static/media/Alptekin_U_01.7b39a8a7.jpg": "/static/media/Alptekin_U_01.7b39a8a7.jpg",
     "static/media/UT_bootcamp.f705f3b2.png": "/static/media/UT_bootcamp.f705f3b2.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.112f52ad.js",
     "static/js/2.a91e7fa2.chunk.js",
-    "static/css/main.8533fabc.chunk.css",
-    "static/js/main.17908b99.chunk.js"
+    "static/css/main.fabbe17b.chunk.css",
+    "static/js/main.5e1e9865.chunk.js"
   ]
 }

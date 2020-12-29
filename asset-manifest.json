@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8533fabc.chunk.css",
-    "main.js": "/static/js/main.3c9b5cb4.chunk.js",
-    "main.js.map": "/static/js/main.3c9b5cb4.chunk.js.map",
+    "main.js": "/static/js/main.0116ad9e.chunk.js",
+    "main.js.map": "/static/js/main.0116ad9e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.112f52ad.js",
     "runtime-main.js.map": "/static/js/runtime-main.112f52ad.js.map",
     "static/js/2.a91e7fa2.chunk.js": "/static/js/2.a91e7fa2.chunk.js",
@@ -11,7 +11,6 @@
     "static/css/main.8533fabc.chunk.css.map": "/static/css/main.8533fabc.chunk.css.map",
     "static/js/2.a91e7fa2.chunk.js.LICENSE.txt": "/static/js/2.a91e7fa2.chunk.js.LICENSE.txt",
     "static/media/Alptekin_U_01.7b39a8a7.jpg": "/static/media/Alptekin_U_01.7b39a8a7.jpg",
-    "static/media/Resume_Umut_Alptekin_Dec2020.4eac4a91.pdf": "/static/media/Resume_Umut_Alptekin_Dec2020.4eac4a91.pdf",
     "static/media/UT_bootcamp.f705f3b2.png": "/static/media/UT_bootcamp.f705f3b2.png",
     "static/media/index.css": "/static/media/circuitboard.69fbcfa8.jpg",
     "static/media/psu_coe.b0bb22b3.png": "/static/media/psu_coe.b0bb22b3.png",
@@ -21,6 +20,6 @@
     "static/js/runtime-main.112f52ad.js",
     "static/js/2.a91e7fa2.chunk.js",
     "static/css/main.8533fabc.chunk.css",
-    "static/js/main.3c9b5cb4.chunk.js"
+    "static/js/main.0116ad9e.chunk.js"
   ]
 }

@@ -1,15 +1,16 @@
 .card {
     height: 400px;
 }
-.portfolioImage{
+.portfolioImage, .card-image {
     height: 300px;
+    
 }
 
 @media screen and (max-width: 992px) {
     .card {
         height: 300px;
     }
-    .portfolioImage{
+    .portfolioImage, .card-image {
         height: 200px;
     }
 }
@@ -17,7 +18,7 @@
     .card {
         height: 250px;
     }
-    .portfolioImage{
+    .portfolioImage, .card-image {
         height: 150px;
     }
 }

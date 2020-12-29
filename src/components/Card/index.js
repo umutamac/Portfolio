@@ -2,12 +2,18 @@ import React from "react";
 import "./index.css";
 
 function Card(projects) {
+    let cardImage = {
+        //backgroundImage: `url(${process.env.PUBLIC_URL + projects.image})`,
+        backgroundImage: `url(${projects.image})`,
+        backgroundPosition: "center",
+        backgroundSize: "cover"
+    }
     return (
         /*Reveal card setup from materialize
         When image is clicked, content of class=card-reveal is shown*/
         <div className="card">
-            <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator portfolioImage" alt={projects.title} src={process.env.PUBLIC_URL + projects.image} />
+            <div style={cardImage} className="activator card-image waves-effect waves-block waves-light">
+                {/*<img className="activator portfolioImage" alt={projects.title} src={process.env.PUBLIC_URL + projects.image} />*/}
             </div>
             <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">

@@ -21,7 +21,7 @@ function Footer() {
                     </a>
                 </div>
             </div>
-            
+
             <div id="attributeArea">
                 <span>
                     Background vector created by pikisuperstar - <a href="https://www.freepik.com/vectors/background" target="_blank" rel="noopener noreferrer">www.freepik.com</a>

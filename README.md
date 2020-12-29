@@ -12,7 +12,9 @@ This is my Bio and Portfolio page, created with React JS. It includes my photo a
 * [Additional Information](#Additional-Information)
 
 ### Installation
-No need for installation. The page is deployed on: https://umutamac.github.io/Portfolio/
+No need for installation. The page is currently deployed on: https://umutamac.tk/
+
+(It used to be deployed athttps://umutamac.github.io/Portfolio/)
 
 ### Usage
 Top left has a dropdown menu that leads to About Me and Portfolio sections. In portfolio section, each card shows a project I have worked on, and includes a link to the deployed link, or a link to its repository.

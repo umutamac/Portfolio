@@ -5,10 +5,10 @@ import headshot from "../assets/aboutPics/Alptekin_U_01.jpg";
 import psuLogo from "../assets/aboutPics/psu_coe.png";
 import bootcamp from "../assets/aboutPics/UT_bootcamp.png";
 import sj from "../assets/aboutPics/sj.jpg";
-import resume from "../assets/pdf/Resume_Umut_Alptekin_Dec2020.pdf";
 // import { Row } from "../components/Grid";
 
 function About() {
+  let resume = "assets/pdf/Resume_Umut_Alptekin_Dec2020.pdf";
 
   return (
     <article id="about">
@@ -42,7 +42,7 @@ function About() {
           after I am done with my coding bootcamp, but having multiple options is something very valuable for
           me. I will see where future takes me...</p>
           
-          <span>My resume can be found <a href={resume} target="_blank" rel="noopener noreferrer">here</a>.</span>
+          <span>My resume can be found <a href={process.env.PUBLIC_URL+resume} target="_blank" rel="noopener noreferrer">here</a>.</span>
 
           <br />
           <div id="logosDiv">

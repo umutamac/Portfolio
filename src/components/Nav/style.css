@@ -1,9 +1,12 @@
 .nav-wrapper {
     background-color: #14b5d0 ;
+    font-family: 'Arvo', serif;
+    font-size: x-large;
+    font-weight:large;
 }
 #name {
     font-size: xx-large;
-    font-family: 'Arvo', serif;
+   
 }
 span, i{
     text-align: center;

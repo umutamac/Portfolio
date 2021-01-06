@@ -10,14 +10,14 @@ function Projects() {
         <div className="container" id="portfolio">
             <h1>Portfolio</h1>
             <hr /><br />
-            <Row>
+            {/*<Row>
                 <Col size="s12">
                     <ul id="tabs-swipe-demo" className="tabs">
                         <li className="tab col s6"><a className="active" href="#tab1">Web Development</a></li>
                         <li className="tab col s6"><a className="" href="#tab2">Engineering</a></li>
                     </ul>
                 </Col>
-            </Row>
+            </Row>*/}
             <div id="tab1">
                 <Row>
                     {myprojects.map((project, i) => {

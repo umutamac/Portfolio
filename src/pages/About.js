@@ -16,33 +16,30 @@ function About() {
         <h1>About Me</h1>
         <hr /><br />
         <div className="about-text">
+          <div id="headshot"><img alt="Umut-Alptekin" src={headshot} /></div>
 
-          <div id="headshot">
-            <img alt="Umut-Alptekin" src={headshot} />
-          </div>
+          <p> Hello there! My name is Umut Alptekin. I am currently looking for a job as either an engineer, or a Full-Stack/Back-end developer.
+          </p>
 
-          <p>Hello everyone! My name is Umut and I am currently on my way to become a Full-Stack Web Developer
-          thanks
-          to the coding bootcamp at UT Austin. I have recently earned a Bachelor's degree in mechanical
-          engineering, however, during this shaky time in the job market,
-                I've decided to dive into an industry which I had an interest in but no time for previously.</p>
+          <p>I have recently graduated from Penn State University with a Bachelor of Science in Mechanical Engineering in May 2020,
+          and, shortly after, finished a 3-month long bootcamp about Full-Stack Web Development from University of Texas at Austin.
+          </p>
 
-          <p>For some background information, I was born and raised in Istanbul, Turkey. I have gone to a French
-          high
-          school in Istanbul, then moved to USA to attend Penn State University.
-          I had the chance to study an interesting subject and took part on many technical projects like
-          building
-          a gas-powered car as my capstone project, as well as lived in a foreing culture for several years,
-          all
-          of which I enjoyed every moment.
-          After finishing college and having a job-hunting period in the USA, I have come back to Istanbul.
-              </p>
+          <p>For some background information, I was born and raised in Istanbul, Turkey. I have gone to Lycée Saint-Joseph Istanbul, a French high school, then moved to USA to attend Penn State University. 
+          Currently, I am back in Istanbul for the foreseeable future, but still open to relocating to another country to chase a work opportunity.
+          </p>
 
-          <p>Currently, I am not certain about whether I will look for a job in web development or in engineering
-          after I am done with my coding bootcamp, but having multiple options is something very valuable for
-          me. I will see where future takes me...</p>
-          
-          <span>My resume can be found <a href={process.env.PUBLIC_URL+resume} target="_blank" rel="noopener noreferrer">here</a>.</span>
+          <p>The bootcamp was a very interesting and constructive experience for me. I have learned so much about coding in general, project workflow in software, and about web development itself.
+          Every week, I was challenged with a new project about a new topic, and had to learn how to use the tools I was just introduced to pretty much on the job.
+          After the bootcamp, I am still learning more about the tools and technologies to better leverage them, and finding different solutions to given problems. 
+          </p>
+
+          <p>While in Penn State, I loved studying engineering, since the technical problem-solving aspect gives me quite a lot of joy. 
+          One of the most memorable things I was involved in was my capstone project where my teammates and I were building a gas-powered, fiberglass car with the maximum fuel efficiency as possible.
+          Our plans to use it in the Shell Eco-marathon competition could not happen, it was still an amazing experience.
+          </p>
+
+          <span>My resume can be found <a href={process.env.PUBLIC_URL + resume} target="_blank" rel="noopener noreferrer">here</a>.</span>
 
           <br />
           <div id="logosDiv">

@@ -5,6 +5,13 @@
     height: 300px;
     
 }
+.card-content {
+    text-align: center;
+    padding: 15px;
+}
+span.card-title {
+    margin: 0px;
+}
 
 @media screen and (max-width: 992px) {
     .card {
@@ -22,3 +29,4 @@
         height: 150px;
     }
 }
+

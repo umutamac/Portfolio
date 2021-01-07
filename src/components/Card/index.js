@@ -16,9 +16,9 @@ function Card(projects) {
                 {/*<img className="activator portfolioImage" alt={projects.title} src={process.env.PUBLIC_URL + projects.image} />*/}
             </div>
             <div className="card-content">
-                <span className="card-title activator grey-text text-darken-4">
-                    <a href={projects.deployedLink} target="_blank" rel="noopener noreferrer">{projects.title}</a>
-                </span>
+                <span className="card-title grey-text text-darken-4">{projects.title}</span>
+                <a class="waves-effect waves-light btn" href={projects.deployedLink} target="_blank" rel="noopener noreferrer">Live Link</a>
+                <a class="waves-effect waves-light btn" href={projects.deployedLink} target="_blank" rel="noopener noreferrer">Repository</a>
             </div>
             
             <div className="card-reveal">

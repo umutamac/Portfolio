@@ -1,21 +1,3 @@
-#headshot > img{
-    height: auto;
-    width: 400px;
-    max-width: 100%;
-    float: left;
-    margin: 0px 15px 15px 0px;
-
-    border-style:double;
-    border-width: medium;
-    border-radius: 10px;
-}
-#headshot > span{ /*doenst affect anything for now*/
-    height: auto;
-    max-width: 400px;
-    float: left;
-    margin: 0px 15px 15px 0px;
-}
-
 #about {
     width: 85%;
     margin-left: auto;
@@ -23,32 +5,62 @@
     margin-top: 50px;
     margin-bottom: 100px;
     background-color: white;
-    padding: 20px;
+    padding: 10px 20px;
 
     font-size: large;
     font-family: 'Crimson', sans-serif;
 }
+#photoAndResumes {
+    padding: 10px;
+}
+#headshot {
+    max-width: 100%;
+}
+#headshot > img {
+    height: auto;
+    /*width: 400px;*/
+    max-width: 100%;
+    float: left;
+    margin: 5px 0px 0px 5px;
 
-@media screen and (max-width: 700px) {
-    #headshot > img{
-        width: 100%;
-    }
+    border-style:double;
+    border-width: medium;
+    border-radius: 10px;
+}
+li {
+    text-align: center;
+}
+#about-text {
+    font-family: "Crimson-Pro";
 }
 
 
-#psuLogo > img,
-#bootCampLogo > img,
-#sjLogo > img{
+
+.logosDiv{
+    text-align: center;
+}
+.psuLogo, .bootCampLogo, .sjLogo{
+    display: inline-block;
+}
+.psuLogo > img, .bootCampLogo > img, .sjLogo > img {
     max-height: 150px; 
     max-width: 100%;   
 }
 
-#psuLogo,
-#bootCampLogo,
-#sjLogo{
-    display: inline-block;
+@media screen and (max-width: 992px) {
+    #links > .logosDiv {
+        display: none;
+    }
+    .article-container > .logosDiv {
+        display: block;
+    }
+}
+@media screen and (min-width: 993px) {
+    #links > .logosDiv {
+        display: block;
+    }
+    .article-container > .logosDiv {
+        display: none;
+    }
 }
 
-#logosDiv{
-    text-align: center;
-}

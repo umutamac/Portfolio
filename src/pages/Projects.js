@@ -8,7 +8,7 @@ function Projects() {
 
     return (
         <div className="container" id="portfolio">
-            <h1>Portfolio</h1>
+            <h1>Web Development Portfolio</h1>
             <hr /><br />
             {/*<Row>
                 <Col size="s12">

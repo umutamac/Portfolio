@@ -5,11 +5,11 @@
     height: 300px;
     
 }
-.card-content {
+.card-content { /*gets overwritten by materialize*/
     text-align: center;
     padding: 15px;
 }
-span.card-title {
+span.card-title { /*gets overwritten by materialize*/
     margin: 0px;
 }
 

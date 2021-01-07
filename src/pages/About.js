@@ -21,7 +21,7 @@ function About() {
             <Row>
               <Col size="s12 m7 l12">
                 <div id="headshot">
-                  <img alt="Umut Alptekin" src={headshot} />
+                  <img src={headshot} alt="Umut Alptekin" />
                 </div>
               </Col>
               <br />
@@ -86,8 +86,6 @@ function About() {
             <img alt="Saint Joseph High School" src={sj} />
           </div>
         </div>
-
-
 
       </div>
     </article>

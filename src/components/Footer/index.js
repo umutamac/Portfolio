@@ -22,9 +22,10 @@ function Footer() {
                 </div>
             </div>
 
-            <div id="attributeArea">
-                <span>
-                    Background vector created by pikisuperstar - <a href="https://www.freepik.com/vectors/background" target="_blank" rel="noopener noreferrer">www.freepik.com</a>
+            <div id="attributeArea" style={{textAlign: "center"}}>
+                <span >
+                    Background vector created by <br />
+                    pikisuperstar - <a href="https://www.freepik.com/vectors/background" target="_blank" rel="noopener noreferrer" style={{color: "white"}}>www.freepik.com</a>
                 </span>
             </div>
         </footer>

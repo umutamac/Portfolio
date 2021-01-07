@@ -4,49 +4,64 @@
     "title": "Paw Prints",
     "image": "../../assets/portfolioPics/pawPrintsSS.png",
     "deployedLink": "https://mypawprints.herokuapp.com/",
+    "repoLink": "https://github.com/Manii-dot/paw-prints",
     "explanation": "This app is designed to be a platform where users can post an image and information of their lost pet for others to see and reach out if they have seen the pet. Everyone can see the posts on the landing page, but signing up is necessary to be able to create a post, and only owner of a given post can delete the post once the pet is found. The project is built using MongoDB, Express, React and Node, as well several other tools such as Cloudinary API, Passport.JS, Multer and more."
   },{
     "id": 2,
     "title": "Leftover Wizard",
     "image": "../../assets/portfolioPics/LW-searchResults.png",
     "deployedLink": "https://leftover-wizard.herokuapp.com/",
-    "explanation": "This app lets users type in food and ingredients and get recipes that they can do using those ingredients. It is aimed for people who wish to evade going to the grocery store while still being able to cook something at home. This was a group project, and part of the coding bootcamp assignments. It is deployed on Heroku. Github repo: https:\/\/github.com/GrimmeDev/LeftoverWizard"
+    "repoLink": "https://github.com/GrimmeDev/LeftoverWizard",
+    "explanation": "This app lets users type in food and ingredients and get recipes that they can do using those ingredients. It is aimed for people who wish to evade going to the grocery store while still being able to cook something at home. This was a group project, and part of the coding bootcamp assignments. It is deployed on Heroku."
   },{
     "id": 3,
     "title": "Reviews & Cocktails",
     "image": "../../assets/portfolioPics/project1.png",
     "deployedLink": "https://umutamac.github.io/Game-Search-Engine/",
-    "explanation": "This is a website where you can search for reviews and deals on PC video games, which are brought from Cheapshark API. Each deal search also gives users a random coctail name and picture through The Cocktail DB API. This was a group project, part of the coding bootcamp assignments. It is deployed on Github Pages. Github repo: https:\/\/github.com/umutamac/Game-Search-Engine"
+    "repoLink": "https://github.com/umutamac/Game-Search-Engine",
+    "explanation": "This is a website where you can search for reviews and deals on PC video games, which are brought from Cheapshark API. Each deal search also gives users a random coctail name and picture through The Cocktail DB API. This was a group project, part of the coding bootcamp assignments. It is deployed on Github Pages."
   },{
     "id": 4,
     "title": "Employee Directory",
     "image": "../../assets/portfolioPics/emp_directory_screenshot.png",
     "deployedLink": "https://umutamac.github.io/employee-directory/",
+    "repoLink": "https://github.com/umutamac/employee-directory",
     "explanation": "This is a React JS app where the employees can be sorted by their ID number, name, age, or salary. The employee information comes from a JSON file and cannot be manipulated by user. The sort buttons changes the state, which changes the order of the array inside the JSON file, and the information on the screen is updated automatically"
   },{
     "id": 5,
     "title": "Budget Tracker",
     "image": "../../assets/portfolioPics/budget_tracker_screenshot.png",
     "deployedLink": "https://enigmatic-tundra-93097.herokuapp.com/",
+    "repoLink": "https://github.com/umutamac/budget-tracker",
     "explanation": "This app lets users keep track of their budget by saving transactions with a name and amount. The transaction list and the remaining budget is saved in the database powered by MongoDB. If the internet connection is lost, the app saves the transactions on client side using IndexedDB. Once a connection is re-established, the transactions kept on client side are synced with the main database for seamless operation"
   },{
     "id": 6,
-    "title": "Work Day Scheduler",
-    "image": "../../assets/portfolioPics/day_planner.png",
-    "deployedLink": "https://umutamac.github.io/day-planner/",
-    "explanation": "This is a placeholder."
-  },{
-    "id": 7,
-    "title": "README Generator",
-    "image": "../../assets/portfolioPics/readme_generator_ss.png",
-    "deployedLink": "https://github.com/umutamac/readme-generator",
-    "explanation": "This CLI program is for generating a README files for other code projects. It asks users a series of questions using inquirer.js and puts the answers into a markdown file template to generate the readme file."
-  },{
-    "id": 8,
     "title": "Weather Dashboard",
     "image": "../../assets/portfolioPics/weather_dashboard.png",
     "deployedLink": "https://umutamac.github.io/weather-dashboard/",
+    "repoLink": "https://github.com/umutamac/weather-dashboard",
     "explanation": "This project is designed to retrieve current weather information and future forecast from openweathermap when a user searches in a city. When user searches a city in search bar, the searched name gets saved into local storage and is displayed on the search list on the left side of the window. The system makes an API call to openweathermap for the given city in order to get and display current date, an icon for the weather, temperature, humidity, wind speed and UV index, as well as a 5-day forecast with most of the mentioned information. If user clicks on one of the past searches, the system searches that city again automatically."
+  },{
+    "id": 7,
+    "title": "Note Taker",
+    "image": "../../assets/portfolioPics/note_taker_ss.png",
+    "deployedLink": "https://stark-retreat-91910.herokuapp.com/",
+    "repoLink": "https://github.com/umutamac/note_taker",
+    "explanation": "This is a placeholder."
+  },{
+    "id": 8,
+    "title": "Work Day Scheduler",
+    "image": "../../assets/portfolioPics/day_planner.png",
+    "deployedLink": "https://umutamac.github.io/day-planner/",
+    "repoLink": "https://github.com/umutamac/weather-dashboard",
+    "explanation": "This is a placeholder."
+  },{
+    "id": 9,
+    "title": "README Generator",
+    "image": "../../assets/portfolioPics/readme_generator_ss.png",
+    "deployedLink": "https://github.com/umutamac/readme-generator",
+    "repoLink": "https://github.com/umutamac/readme-generator",
+    "explanation": "This CLI program is for generating a README files for other code projects. It asks users a series of questions using inquirer.js and puts the answers into a markdown file template to generate the readme file. There is no deployed version, but you can download the app from my repository and use it on your own computer."
   }
 ]
   

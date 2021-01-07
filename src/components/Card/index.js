@@ -1,13 +1,19 @@
 import React from "react";
 import "./index.css";
+import ghIcon from "../../assets/otherPics/GitHub-Mark-64px.png";
 
 function Card(projects) {
-    let cardImage = {
+    const cardImage = {
         //backgroundImage: `url(${process.env.PUBLIC_URL + projects.image})`,
         backgroundImage: `url(${projects.image})`,
         backgroundPosition: "center",
         backgroundSize: "cover"
     }
+    const cardContent = {
+        textAlign: "center",
+        padding: "10px"
+    }
+
     return (
         /*Reveal card setup from materialize
         When image is clicked, content of class=card-reveal is shown*/
@@ -15,15 +21,18 @@ function Card(projects) {
             <div style={cardImage} className="activator card-image waves-effect waves-block waves-light">
                 {/*<img className="activator portfolioImage" alt={projects.title} src={process.env.PUBLIC_URL + projects.image} />*/}
             </div>
-            <div className="card-content">
-                <span className="card-title grey-text text-darken-4">{projects.title}</span>
-                <a class="waves-effect waves-light btn" href={projects.deployedLink} target="_blank" rel="noopener noreferrer">Live Link</a>
-                <a class="waves-effect waves-light btn" href={projects.deployedLink} target="_blank" rel="noopener noreferrer">Repository</a>
+            <div className="card-content" style={cardContent}>
+                <span className="card-title grey-text text-darken-4" style={{margin: "0px"}}>{projects.title}</span>
+                <a className="waves-effect waves-light btn" href={projects.deployedLink} target="_blank" rel="noopener noreferrer">Live Link</a>
+                <a className="waves-effect waves-light btn" href={projects.deployedLink} target="_blank" rel="noopener noreferrer">GitHub Repo
+                    {/*<img href={ghIcon} alt="Github Repo"/>*/}
+                </a>
             </div>
-            
+
             <div className="card-reveal">
-                <span className="card-title grey-text text-darken-4">{projects.title}<i
-                    className="material-icons right">close</i></span>
+                <span className="card-title grey-text text-darken-4">{projects.title}
+                    <i className="material-icons right">close</i>
+                </span>
                 <p>{projects.explanation}</p>
             </div>
         </div>

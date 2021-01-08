@@ -4,12 +4,10 @@ import "./style.css";
 function Footer() {
     return (
         <footer className="page-footer valign-wrapper">
+
             <div className="contact valign-wrapper">
-                <div className="contact-left">
-                    <p>If you have any questions, or just want to say hello, you can always reach out to me using:
-                    </p>
-                </div>
-                <div className="icons-container-right flex-container">
+
+                <div className="contact-left icons-container">
                     <a href="https://www.linkedin.com/in/umutalptekin" target="_blank" rel="noopener noreferrer">
                         <div className="icon icon-linkedin hoverable"></div>
                     </a>
@@ -20,14 +18,20 @@ function Footer() {
                         <div className="icon icon-email hoverable"></div>
                     </a>
                 </div>
+
             </div>
 
-            <div id="attributeArea" style={{textAlign: "center"}}>
+            <div className="middle valign-wrapper">
+                <p>Umut Alptekin - 2021</p>
+            </div>
+
+            <div className="right" id="attributeArea" style={{ textAlign: "center" }}>
                 <span >
                     Background vector created by <br />
-                    pikisuperstar - <a href="https://www.freepik.com/vectors/background" target="_blank" rel="noopener noreferrer" style={{color: "white"}}>www.freepik.com</a>
+                    pikisuperstar - <a href="https://www.freepik.com/vectors/background" target="_blank" rel="noopener noreferrer" style={{ color: "white" }}>www.freepik.com</a>
                 </span>
             </div>
+
         </footer>
     );
 }

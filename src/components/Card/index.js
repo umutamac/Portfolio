@@ -22,9 +22,9 @@ function Card(projects) {
                 {/*<img className="activator portfolioImage" alt={projects.title} src={process.env.PUBLIC_URL + projects.image} />*/}
             </div>
             <div className="card-content" style={cardContent}>
-                <span className="card-title grey-text text-darken-4" style={{margin: "0px"}}>{projects.title}</span>
+                <a className="card-title activator grey-text text-darken-4" href="#!" style={{margin: "0px"}}>{projects.title}</a>
                 <a className="waves-effect waves-light btn" href={projects.deployedLink} target="_blank" rel="noopener noreferrer">Live Link</a>
-                <a className="waves-effect waves-light btn" href={projects.deployedLink} target="_blank" rel="noopener noreferrer">GitHub Repo
+                <a className="waves-effect waves-light btn" href={projects.repoLink} target="_blank" rel="noopener noreferrer">GH Repo
                     {/*<img href={ghIcon} alt="Github Repo"/>*/}
                 </a>
             </div>

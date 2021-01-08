@@ -1,33 +1,48 @@
-.page-footer {
+footer.page-footer {
     background-color: #14b5d0 ;
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
 }
+
 .contact{
-    width: 75%;
-    padding: 0px 25px;;
+    flex-grow: 1;
+    width: 35%;
+    margin: 0 auto;
+    padding: 0 15px;
 }
+div.middle {
+    text-align: center;
+    padding: 0px;
+    flex-grow: 2;
+}
+.middle > p {
+    margin: 0 auto;
+}
+#attributeArea{
+    width: 30%;
+    padding: 0px 15px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+
+
 .contact-left {
     position: relative;
     float: left;
-    width: 60%;
-    padding-right: 10px;
-}
-.icons-container-right {
-    
-    position: relative;
-    float: right;
-    width: 40%;
+    text-align: center;
+    margin: 0 auto;
 }
 .icon {
     position: relative;
     background-size: 48px;
 	width: 48px;
     height: 48px;
-    margin-top: 12px;
-	margin-right: 12px;
-    display: inline-block;
+    margin-top: 10px;
+	margin-right: 10px;    display: inline-block;
 }
 .icon-linkedin{
 	background-image: url("../../assets/otherPics/linkedin-icon.png");
@@ -38,8 +53,6 @@
 .icon-email{
     background-image: url("../../assets/otherPics/gmail.png");
 }
-#attributeArea{
-    width: 25%;
-    padding: 0px 10px;
-}
+
+
 

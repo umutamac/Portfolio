@@ -23,6 +23,7 @@ function Card(projects) {
             </div>
             <div className="card-content" style={cardContent}>
                 <a className="card-title activator grey-text text-darken-4" href="#!" style={{margin: "0px"}}>{projects.title}</a>
+                
                 <a className="waves-effect waves-light btn" href={projects.deployedLink} target="_blank" rel="noopener noreferrer">Live Link</a>
                 <a className="waves-effect waves-light btn" href={projects.repoLink} target="_blank" rel="noopener noreferrer">GH Repo
                     {/*<img href={ghIcon} alt="Github Repo"/>*/}

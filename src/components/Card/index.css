@@ -12,6 +12,10 @@
 span.card-title { /*gets overwritten by materialize*/
     margin: 0px;
 }
+.btn {
+    margin: 5px 5px;
+}
+
 
 @media screen and (max-width: 992px) {
     .card {

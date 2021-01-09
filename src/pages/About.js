@@ -8,7 +8,7 @@ import sj from "../assets/aboutPics/sj.jpg";
 import { Row, Col } from "../components/Grid";
 
 function About() {
-  const engResume = "assets/pdf/Resume_Umut_Alptekin_Dec2020.pdf";
+  const engResume = "https://drive.google.com/file/d/1yWjiqpy8hogHbtwtAjI1cs08kA8kzq8S/view?usp=sharing";
   const webdevResume = "https://docs.google.com/document/d/1xIc6BZVuvJXwSytZVoiGwqJ-fL1-Lf-pxx5IcLW-PL4/edit?usp=sharing";
 
   return (

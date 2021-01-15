@@ -53,8 +53,8 @@
     "title": "Work Day Scheduler",
     "image": "../../assets/portfolioPics/day_planner.png",
     "deployedLink": "https://umutamac.github.io/day-planner/",
-    "repoLink": "https://github.com/umutamac/weather-dashboard",
-    "explanation": "This is a placeholder."
+    "repoLink": "https://github.com/umutamac/day-planner",
+    "explanation": "This simple JavaScript app lets users type in notes or to-dos in hour slots of the current day. Each hour slot has a color-coded background, and depending on the time of initial load of the app, the past hour slots are gray, current one is red, and future ones are green. Users can type in notes and click save, which will save the inputs into local storage, so that the data is persisted. This app leverages jQuery for a simpler and less cluttered code, and Moment.js to work with date and time information."
   },{
     "id": 9,
     "title": "README Generator",

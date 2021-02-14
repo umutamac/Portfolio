@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b2b0f0e0.chunk.css",
-    "main.js": "/static/js/main.d7afb6b7.chunk.js",
-    "main.js.map": "/static/js/main.d7afb6b7.chunk.js.map",
+    "main.js": "/static/js/main.16104bc6.chunk.js",
+    "main.js.map": "/static/js/main.16104bc6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.112f52ad.js",
     "runtime-main.js.map": "/static/js/runtime-main.112f52ad.js.map",
     "static/js/2.313ac43d.chunk.js": "/static/js/2.313ac43d.chunk.js",
@@ -18,17 +18,14 @@
     "static/media/mongodb-icon2.36bc3011.png": "/static/media/mongodb-icon2.36bc3011.png",
     "static/media/mysql-icon.6e42b2a0.png": "/static/media/mysql-icon.6e42b2a0.png",
     "static/media/nodejs-icon.dc0b9794.png": "/static/media/nodejs-icon.dc0b9794.png",
-    "static/media/postgresql-icon.6c5d698f.png": "/static/media/postgresql-icon.6c5d698f.png",
     "static/media/psu_coe.b0bb22b3.png": "/static/media/psu_coe.b0bb22b3.png",
-    "static/media/python-icon.28e52a36.png": "/static/media/python-icon.28e52a36.png",
     "static/media/react-icon.6ae796f5.png": "/static/media/react-icon.6ae796f5.png",
-    "static/media/sj.4bf820ec.jpg": "/static/media/sj.4bf820ec.jpg",
-    "static/media/vue-icon1.77aae5bf.png": "/static/media/vue-icon1.77aae5bf.png"
+    "static/media/sj.4bf820ec.jpg": "/static/media/sj.4bf820ec.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.112f52ad.js",
     "static/js/2.313ac43d.chunk.js",
     "static/css/main.b2b0f0e0.chunk.css",
-    "static/js/main.d7afb6b7.chunk.js"
+    "static/js/main.16104bc6.chunk.js"
   ]
 }

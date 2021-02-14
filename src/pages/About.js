@@ -9,10 +9,10 @@ import psuLogo from "../assets/aboutPics/psu_coe.png";
 import bootcamp from "../assets/aboutPics/UT_bootcamp.png";
 import sj from "../assets/aboutPics/sj.jpg";
 
+const engResume = "https://drive.google.com/file/d/1yWjiqpy8hogHbtwtAjI1cs08kA8kzq8S/view?usp=sharing";
+const webdevResume = "https://docs.google.com/document/d/1xIc6BZVuvJXwSytZVoiGwqJ-fL1-Lf-pxx5IcLW-PL4/edit?usp=sharing";
 
 function About() {
-  const engResume = "https://drive.google.com/file/d/1yWjiqpy8hogHbtwtAjI1cs08kA8kzq8S/view?usp=sharing";
-  const webdevResume = "https://docs.google.com/document/d/1xIc6BZVuvJXwSytZVoiGwqJ-fL1-Lf-pxx5IcLW-PL4/edit?usp=sharing";
 
   return (
     <article id="about">
@@ -54,7 +54,7 @@ function About() {
           </Col>
 
           <Col size="s12 m12 l7">
-           <Bio />
+            <Bio />
           </Col>
         </Row>
 

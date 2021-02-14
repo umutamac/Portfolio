@@ -17,11 +17,13 @@ function Nav() {
           <ul id="dropdown1" className="dropdown-content">
             <li><NavLink to="/">About Me</NavLink></li>
             <li><NavLink to="/projects">Projects</NavLink></li>
+            <li><NavLink to="/skills">Skills</NavLink></li>
           </ul>
 
           <ul id="navbar-pages" className="hide-on-med-and-down col s4">
             <li><NavLink to="/">About Me</NavLink></li>
             <li><NavLink to="/projects">Projects</NavLink></li>
+            <li><NavLink to="/skills">Skills</NavLink></li>
           </ul>
 
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
-import "./index.css";
-import ghIcon from "../../assets/otherPics/GitHub-Mark-64px.png";
+import "./card.css";
+//import ghIcon from "../../assets/otherPics/GitHub-Mark-64px.png";
 
 function Card(projects) {
     const cardImage = {
@@ -26,7 +26,7 @@ function Card(projects) {
                 
                 <a className="waves-effect waves-light btn" href={projects.deployedLink} target="_blank" rel="noopener noreferrer">Live Link</a>
                 <a className="waves-effect waves-light btn" href={projects.repoLink} target="_blank" rel="noopener noreferrer">GH Repo
-                    {/*<img href={ghIcon} alt="Github Repo"/>*/}
+                    {/*<img src={ghIcon} alt="Github Repo"/>*/}
                 </a>
             </div>
 

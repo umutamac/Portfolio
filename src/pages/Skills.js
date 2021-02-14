@@ -13,13 +13,12 @@ import nodejsicon from "../assets/skillsPics/nodejs-icon.png";
 import mongodbicon from "../assets/skillsPics/mongodb-icon2.png";
 import mysqlicon from "../assets/skillsPics/mysql-icon.png";
 import reacticon from "../assets/skillsPics/react-icon.png";
-import pythonicon from "../assets/skillsPics/python-icon.png";
-import postgresicon from "../assets/skillsPics/postgresql-icon.png";
-import vueicon from "../assets/skillsPics/vue-icon1.png";
-import tsicon from "../assets/skillsPics/typescripts-icon1.png";
+// import pythonicon from "../assets/skillsPics/python-icon.png";
+// import postgresicon from "../assets/skillsPics/postgresql-icon.png";
+// import vueicon from "../assets/skillsPics/vue-icon1.png";
+// import tsicon from "../assets/skillsPics/typescripts-icon1.png";
 
-
-let langicons = [jsicon, htmlicon, cssicon, jqueryicon];
+let langicons = [htmlicon, cssicon, jsicon, jqueryicon];
 let dbicons = [mongodbicon, mysqlicon];
 let frameworkicon = [nodejsicon, reacticon];
 

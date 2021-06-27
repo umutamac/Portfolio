@@ -8,13 +8,13 @@ function Footer() {
             <div className="contact valign-wrapper">
 
                 <div className="contact-left icons-container">
-                    <a href="https://www.linkedin.com/in/umutalptekin" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/umutalptekin" target="_blank" rel="noopener">
                         <div className="icon icon-linkedin hoverable"></div>
                     </a>
-                    <a href="https://github.com/umutamac" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/umutamac" target="_blank" rel="noopener">
                         <div className="icon icon-github hoverable"></div>
                     </a>
-                    <a href="mailto:amacalptekin@gmail.com" target="_blank" >
+                    <a href="mailto:amacalptekin@gmail.com" target="_blank" rel="noopener">
                         <div className="icon icon-email hoverable"></div>
                     </a>
                 </div>

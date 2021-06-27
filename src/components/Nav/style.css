@@ -1,13 +1,18 @@
-.nav-wrapper {
+nav{
     background-color: #14b5d0 ;
+}
+
+.nav-wrapper {
     font-family: 'Arvo', serif;
     font-size: x-large;
     font-weight:large;
 }
+
 #name {
     font-size: xx-large;
    
 }
+
 span, i{
     text-align: center;
 }

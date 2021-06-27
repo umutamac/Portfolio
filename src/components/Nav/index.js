@@ -5,7 +5,7 @@ import "./style.css";
 function Nav() {
   return (
       <nav>
-        <div className="nav-wrapper row">
+        <div className="nav-wrapper row" role="navigation">
           <NavLink to="/" id="name" className="center-align col s8 hoverable" >
             <span className="flow-text">Umut A. ALPTEKIN</span>
           </NavLink>

@@ -14,6 +14,10 @@ function Card(projects) {
         padding: "10px"
     }
 
+    // if a live link exists, create a button for it
+    let liveLink = projects.deployedLink
+        && <a className="waves-effect waves-light btn" href={projects.deployedLink} target="_blank" rel="noopener noreferrer">Live Link</a>
+
     return (
         /*Reveal card setup from materialize
         When image is clicked, content of class=card-reveal is shown*/
@@ -22,9 +26,10 @@ function Card(projects) {
                 {/*<img className="activator portfolioImage" alt={projects.title} src={process.env.PUBLIC_URL + projects.image} />*/}
             </div>
             <div className="card-content" style={cardContent}>
-                <a className="card-title activator grey-text text-darken-4" href="#!" style={{margin: "0px"}}>{projects.title}</a>
-                
-                <a className="waves-effect waves-light btn" href={projects.deployedLink} target="_blank" rel="noopener noreferrer">Live Link</a>
+                <a className="card-title activator grey-text text-darken-4" href="#!" style={{ margin: "0px" }}>{projects.title}</a>
+
+                {liveLink /* if exists*/ } 
+
                 <a className="waves-effect waves-light btn" href={projects.repoLink} target="_blank" rel="noopener noreferrer">GH Repo
                     {/*<img src={ghIcon} alt="Github Repo"/>*/}
                 </a>

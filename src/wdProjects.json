@@ -59,7 +59,7 @@
     "id": 9,
     "title": "README Generator",
     "image": "../../assets/portfolioPics/readme_generator_ss.png",
-    "deployedLink": "https://github.com/umutamac/readme-generator",
+    "deployedLink": "",
     "repoLink": "https://github.com/umutamac/readme-generator",
     "explanation": "This CLI program is for generating a README files for other code projects. It asks users a series of questions using inquirer.js and puts the answers into a markdown file template to generate the readme file. There is no deployed version, but you can download the app from my repository and use it on your own computer."
   }

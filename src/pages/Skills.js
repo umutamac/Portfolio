@@ -3,19 +3,17 @@ import "./skills.css";
 
 import { Row, Col } from "../components/Grid";
 
-//import context from "require-context/register";
-
 import icons from "../assets/skillsPics/index.js";
 
 
 let langicons = [icons.ts, icons.js, icons.jquery, icons.html, icons.css,];
-let dbicons = [icons.mongodb, icons.mysql];
+let dbicons = [icons.fs, icons.mongodb, icons.mysql];
 let frameworkicon = [icons.vue, icons.react, icons.nodejs,];
 
 export default function Skills() {
 
     return (
-        <div id="skills" className="container">
+        <div id="skills" className="">
             <h1>Skills</h1>
             <hr /><br />
 

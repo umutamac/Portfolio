@@ -1,14 +1,7 @@
 #about {
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
     margin-bottom: 100px;
     background-color: white;
     padding: 10px 20px;
-
-    font-size: large;
-    font-family: 'Nunito', sans-serif;
 }
 #photoAndResumes {
     padding: 10px;

@@ -9,7 +9,7 @@ footer.page-footer {
     padding: 20px auto;
 }
 
-.left{
+.left {
     flex-grow: 1;
     width: 35%;
     margin: 0 auto;

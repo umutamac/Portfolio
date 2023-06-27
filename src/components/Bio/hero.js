@@ -6,8 +6,8 @@ import "./hero.css"
 export default function Hero() {
 
     return (
-        <div id="about-text" style={{ marginBottom: "100px", marginTop: "100px" }}>
-            <div className="row">
+        <div id="about-text" style={{ marginBottom: "100px" }}>
+            <div className="row align-items-center">
                 <div className="col-7">
                     <h1>Hi, I'm Umut Alptekin</h1>
                     <h2>I'm a web developer</h2>

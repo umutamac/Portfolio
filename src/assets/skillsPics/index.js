@@ -9,6 +9,7 @@ import react from "./react-icon.png";
 import vue from "./vue-icon1.png";
 import ts from "./typescripts-icon1.png";
 import fb from "./firebase.png";
+import fs from "./firestore.png";
 
 // import pythonicon from "../assets/skillsPics/python-icon.png";
 // import postgresicon from "../assets/skillsPics/postgresql-icon.png";
@@ -24,6 +25,7 @@ const icons = {
     mysql,
     vue,
     ts,
-    fb
+    fb,
+    fs
 }
 export default icons;

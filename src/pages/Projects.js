@@ -4,10 +4,10 @@ import Card from "../components/Card"
 import myprojects from "../wdProjects.json";
 import "./projects.css";
 
-function Projects() {
+export default function Projects() {
 
     return (
-        <div className="container" id="portfolio">
+        <div  id="portfolio" className="">
             <h1>Projects</h1>
             <hr /><br />
             {/*<Row>
@@ -33,4 +33,3 @@ function Projects() {
         </div>
     );
 }
-export default Projects;

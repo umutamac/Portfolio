@@ -7,18 +7,20 @@ import Projects from "./pages/Projects";
 import Skills from "./pages/Skills.js";
 
 
-import Header from "./components/Header";
-import Sidebar from "./components/Sidebar";
+import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+// import Sidebar from "./components/Sidebar";
 
 import "./app.css";
 
-function App() {
+export default function App() {
     return (
         <Router /*basename="/Portfolio"*/>
             <div>
-                <Header />
-                <main>
+                <header>
+                    <Nav />
+                </header>
+                <main className="container" style={{ marginTop: "100px" }}>
                     {/* <Sidebar /> */}
 
                     <Switch>
@@ -33,5 +35,3 @@ function App() {
         </Router>
     );
 }
-
-export default App;

@@ -3,16 +3,18 @@
 This is my Bio and Portfolio page, created with React JS. It includes my photo and a short introduction in "About Me" section, and my web development projects and homeworks in "Portfolio" section. The footer also includes links to my LinkedIn and Github profile pages.
 
 ## Table of Contents
-* [Description](#Description)
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [License](#License)
-* [Questions](#Questions)
-* [Collaborators](#Collaborators)
-* [Additional Information](#Additional-Information)
+- [My Portfolio (using React JS)](#my-portfolio-using-react-js)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Collaborators](#collaborators)
+      - [License](#license)
+      - [Questions?](#questions)
+      - [Additional Information](#additional-information)
 
 ### Installation
-No need for installation. The page is currently deployed on: https://umutamac.tk/
+No need for installation. The page is currently deployed on: https://umutamac.net/
 
 (It used to be deployed at https://umutamac.github.io/Portfolio/)
 

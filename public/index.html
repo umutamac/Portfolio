@@ -7,12 +7,16 @@
 
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <title>Portfolio of Umut Alptekin</title>
-  <meta name="theme-color" content="#000000" />
   <meta name="description" content="Portolio of Umut Alptekin created with React JS" />
+
+  <meta name="theme-color" content="#000000" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?&family=Nunito&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/eb121c15d4.js" crossorigin="anonymous"></script>
 
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
   <!--
@@ -46,9 +50,14 @@
   <!-- <script src="https://kit.fontawesome.com/10091cba94.js" crossorigin="anonymous"></script> -->
 
   <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.sidenav');
+      //var instances = M.Sidenav.init(elems, options);
+    });
+
     $(document).ready(function () { // For enabling materialize components
       $(".dropdown-trigger").dropdown();
-      $('.sidenav').sidenav();
+      //$('.sidenav').sidenav();
       //$('.tabs').tabs();
     });
   </script>

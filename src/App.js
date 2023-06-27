@@ -19,7 +19,7 @@ function App() {
             <div>
                 <Header />
                 <main>
-                    <Sidebar />
+                    {/* <Sidebar /> */}
 
                     <Switch>
                         <Route exact path="/" component={About} />

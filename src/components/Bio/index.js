@@ -1,10 +1,10 @@
 import React from "react";
 import "./bio.css";
 
-function Bio() {
+export default function Bio() {
 
   return (
-    <div id="about-text">
+    <div id="about-text" style={{ marginBottom: "100px" }} >
       <p>Hello there! My name is Umut Alptekin. I am currently looking for a job as either an engineer, or a Full-Stack/Back-end developer.
           </p>
 
@@ -28,5 +28,3 @@ function Bio() {
     </div>
   );
 }
-
-export default Bio;

@@ -1,0 +1,13 @@
+#headshot > img {
+  /*width: 400px;*/
+  max-width: 100%;
+  aspect-ratio: 1/1;
+  height: auto;
+  overflow: hidden;
+
+  border-radius: 50%;
+  border: 5px solid red;
+  /* padding: 5px; */
+
+  object-fit: cover;
+}

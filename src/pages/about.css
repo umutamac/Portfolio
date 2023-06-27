@@ -13,20 +13,6 @@
 #photoAndResumes {
     padding: 10px;
 }
-#headshot {
-    max-width: 100%;
-}
-#headshot > img {
-    height: auto;
-    /*width: 400px;*/
-    max-width: 100%;
-    float: left;
-    margin: 5px 0px 0px 5px;
-
-    border-style:double;
-    border-width: medium;
-    border-radius: 10px;
-}
 li {
     text-align: center;
 }

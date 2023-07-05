@@ -2,7 +2,7 @@ import React from "react";
 import headshot from "../../assets/aboutPics/Alptekin_U_01.jpg";
 
 import "./hero.css"
-const webdevResume = "https://docs.google.com/document/d/1xIc6BZVuvJXwSytZVoiGwqJ-fL1-Lf-pxx5IcLW-PL4/edit?usp=sharing";
+const webdevResume = "https://docs.google.com/document/d/1IVJPEHkDQeq6ToodHW4s5unWkYyKatD7NvlC8xV9tcQ/edit?usp=sharing";
 
 export default function Hero() {
 
